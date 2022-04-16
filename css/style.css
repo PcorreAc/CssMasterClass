@@ -203,6 +203,7 @@ p {
 .h-450 {
     height: 450px;
 }
+
 /* sm Screen size */
 @media (min-width: 640px) {
     .sm\:fs-60 {
