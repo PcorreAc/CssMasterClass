@@ -3,6 +3,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color: #121826;
 }
 
 button{
@@ -25,7 +26,7 @@ p {
     color: #fff;
 }
 
-.block {
+/* .block {
     display: block;
 }
 
@@ -44,6 +45,10 @@ p {
 .flex {
     display: flex;
 }
+
+.w-full {
+    width: 100%;
+}*/
 
 .justify-between {
     justify-content: space-between;
@@ -146,10 +151,6 @@ p {
     font-size: 20px;
 }
 
-.w-full {
-    width: 100%;
-}
-
 .relative {
     position: relative;
 }
@@ -195,6 +196,14 @@ p {
     margin-right: auto;
 }
 
+.h-385 {
+    height: 385px;
+}
+
+.h-450 {
+    height: 450px;
+}
+/* sm Screen size */
 @media (min-width: 640px) {
     .sm\:fs-60 {
         font-size: 60px;
@@ -202,5 +211,16 @@ p {
 
     .sm\:fs-20 {
         font-size: 20px;
+    }
+
+    .sm\:h-689 {
+        height: 689px;
+    }
+}
+
+/* md Screen size  */
+@media (min-width: 768px) {
+    .md\:h-689 {
+        height: 689px;
     }
 }
